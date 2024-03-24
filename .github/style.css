@@ -12,7 +12,23 @@
     src: url(Rubik-Bold.ttf); 
 }
 
+.custom-navbar {
+    background-color: #f0f0f0; /* 배경색 변경 */
+    border-bottom: 1px solid #ddd; /* 하단 테두리 추가 */
+    padding: 10px 0; /* 위아래 여백 추가 */
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+    color: #333; /* 네비게이션 링크 텍스트 색상 변경 */
+    margin: 0 10px; /* 네비게이션 링크 사이 여백 추가 */
+  }
+
+  .custom-navbar .navbar-brand {
+    color: #333; /* 로고 텍스트 색상 변경 */
+  }
+
 p {
+    margin-top: 50px;
     font-family: 'Rubik'; 
     font-size: larger;
     
@@ -30,7 +46,6 @@ h1{
     font-family: Rubik-Bold;
     font-size: xx-large;
 }
-
 
 #hometext{
     font-family: 'Rubik-Bold';
@@ -50,7 +65,7 @@ h1{
 }
 
 img[alt="self"]{
-   width: 100%; max-width: 300px; align-items: center; margin-left: 60px;
+    max-width: 100%; align-items: center; margin-left: 60px;
 }
 
 img[alt="pathfinder"]{
@@ -62,13 +77,12 @@ img[alt="andstu"]{
 }
 
 img[alt="java"]{
-    max-width: 50%; max-height: 200px; margin-left: 100px;
+    max-width: 50%; max-height: 200px; margin-left: 100px; padding-bottom: 50px;
 }
 
 img[alt="adobe"]{
-    max-width: 100%; max-height: auto;
+    max-width: 100%; max-height: auto; margin-bottom: 50px;
 }
-
 
 .container-border {
     margin: 50px;
@@ -76,4 +90,9 @@ img[alt="adobe"]{
     padding: 20px;
     border-radius: 10px;
     padding: 30px;
+}
+
+.progress mt-3{
+    font-size: larger;
+    
 }
