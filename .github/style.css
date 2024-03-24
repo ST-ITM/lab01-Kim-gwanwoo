@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Rubik'; 
+    font-style: normal; 
+    font-weight: 400; 
+    src: url(Rubik-Regular.ttf); 
+}
+
+@font-face {
+    font-family: 'Rubik-Bold'; 
+    font-style: normal; 
+    font-weight: 400; 
+    src: url(Rubik-Bold.ttf); 
+}
+
+p {
+    font-family: 'Rubik'; 
+    font-size: larger;
+    
+}
+
+h1{
+    font-family: 'Rubik-Bold';
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+.lead{
+    font-family: Rubik-Bold;
+    font-size: xx-large;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.col-md-6{
+    margin-top: 30px;
+
+}
+
+.pathfinder{
+    max-width: 400px; max-height: auto;
+}
+
+.andst{
+    max-width: auto; max-height: 100px;
+}
+
+.java{
+    max-width: auto; max-height: 100px;
+}
+
+.adobe{
+    max-width: 500px; max-height:auto;
+}
+
+.container-border {
+    border: 5px solid black; 
+    padding: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
