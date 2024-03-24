@@ -21,7 +21,8 @@ p {
 h1{
     font-family: 'Rubik-Bold';
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    padding-top: 50px;
     font-size: xx-large;
 }
 
@@ -30,8 +31,17 @@ h1{
     font-size: xx-large;
 }
 
+
+#hometext{
+    font-family: 'Rubik-Bold';
+    text-align: center;
+    padding: 100px;
+    font-size: large;
+}
+
 .container{
     margin-top: 30px;
+    align-items: center;
 }
 
 .col-md-6{
@@ -39,23 +49,29 @@ h1{
 
 }
 
-.pathfinder{
-    max-width: 400px; max-height: auto;
+img[alt="self"]{
+   width: 100%; max-width: 300px; align-items: center; margin-left: 60px;
 }
 
-.andst{
-    max-width: auto; max-height: 100px;
+img[alt="pathfinder"]{
+    max-width: 100%; max-height: auto;
 }
 
-.java{
-    max-width: auto; max-height: 100px;
+img[alt="andstu"]{
+    max-width: auto; max-height: 200px;
 }
 
-.adobe{
-    max-width: 500px; max-height:auto;
+img[alt="java"]{
+    max-width: 50%; max-height: 200px; margin-left: 100px;
 }
+
+img[alt="adobe"]{
+    max-width: 100%; max-height: auto;
+}
+
 
 .container-border {
+    margin: 50px;
     border: 5px solid black; 
     padding: 20px;
     border-radius: 10px;
