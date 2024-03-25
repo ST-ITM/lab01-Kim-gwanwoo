@@ -2,14 +2,14 @@
     font-family: 'Rubik'; 
     font-style: normal; 
     font-weight: 400; 
-    src: url(Rubik-Regular.ttf); 
+    src: url(source/Rubik-Regular.ttf); 
 }
 
 @font-face {
     font-family: 'Rubik-Bold'; 
     font-style: normal; 
     font-weight: 400; 
-    src: url(Rubik-Bold.ttf); 
+    src: url(source/Rubik-Bold.ttf); 
 }
 
 .custom-navbar {
@@ -42,9 +42,9 @@ h1{
     font-size: xx-large;
 }
 
-.lead{
+#lead{
     font-family: Rubik-Bold;
-    font-size: xx-large;
+    font-size: 80px;
 }
 
 #hometext{
@@ -62,14 +62,6 @@ h1{
 .col-md-6{
     margin-top: 30px;
 
-}
-
-img[alt="self"]{
-    max-width: 100%; align-items: center; margin-left: 60px;
-}
-
-img[alt="pathfinder"]{
-    max-width: 100%; max-height: auto;
 }
 
 img[alt="andstu"]{
@@ -95,4 +87,27 @@ img[alt="adobe"]{
 .progress mt-3{
     font-size: larger;
     
+}
+
+.mb-3 {
+    width: 80%; 
+    margin: 0 auto;
+    display: block; 
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+#cardtext{
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+
 }
