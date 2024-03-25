@@ -5,7 +5,6 @@
     font-weight: 400; 
     src: url(source/Rubik-Regular.ttf); 
 }
-
 @font-face {
     font-family: 'Rubik-Bold'; 
     font-style: normal; 
@@ -17,12 +16,10 @@
 .custom-navbar {  
     border-bottom: 1px solid black; 
 }
-
 .custom-navbar .navbar-nav .nav-link {
     color: black;
     margin: 10px;
 }
-
 .custom-navbar .navbar-brand {
     color: black
 }
@@ -31,11 +28,9 @@
 img[alt="andstu"]{
     max-width: auto; max-height: 200px;
 }
-
 img[alt="java"]{
     max-width: 50%; max-height: 200px; margin-left: 100px; 
 }
-
 img[alt="adobe"]{
     max-width: 100%; max-height: auto; margin-bottom: 50px;
 }
@@ -46,7 +41,6 @@ p {
     font-family: 'Rubik'; 
     font-size: larger; 
 }
-
 h1{
     font-family: 'Rubik-Bold';
     text-align: center;
@@ -54,27 +48,20 @@ h1{
     padding-top: 50px;
     font-size: xx-large;
 }
-
 h3{
-    font-family: 'Rubik-Regular';
+    padding-top: 50px;
+    font-family: 'Rubik-Bold';
     font-size: xx-large;
     margin-left: 5%;
 }
 
 /* text container stlye (for change in default)*/
-#lead{
-    font-family: Rubik-Bold;
-    font-size: x-large;
-    align-items: center;
-}
-
 #cardtext{
     height: 100%;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
 }
-
 #hometext{
     font-family: 'Rubik-Bold';
     text-align: center;
